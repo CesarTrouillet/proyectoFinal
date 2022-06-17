@@ -1,0 +1,11 @@
+@mixin twitterNewsMixin {
+    width: 400px;
+    height: 600px;
+    overflow: scroll;
+}
+
+/*Section Novedades Twitter ubicado en index.html*/
+
+.twitterdiv {
+    @include twitterNewsMixin;
+}

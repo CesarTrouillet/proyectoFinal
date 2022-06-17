@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="../images/coffee-favicon.png">
+  <title>CafeShop</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bg-dark contactobackg">
+  <div class="alert alert-warning text-center" role="alert">
+    Semana de descuentos de todos los productos de CAFESHOP en 👉 <a href="https://www.mercadolibre.com.ar"
+      class="alert-link">Mercado Libre </a> 👈
+  </div>
+  <div class="container-fluid d-flex justify-content-center ">
+    <img src="../images/logoCafeShop.png" alt="logoCafeShop" width="375" height="100" class="d-inline-block">
+  </div>
+  <header class="d-flex justify-content-center">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-warning" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-warning fs-5 navhover" aria-current="page" href="../index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-warning fs-5 navhover" href="../pages/nosotros.html">Nosotros </a>
+            </li>
+            <li class="nav-item dropdown text-warning fs-5 ">
+              <a class="nav-link active text-warning fs-5 navhover" href="../pages/productos.html">Productos </a>
+
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-warning fs-5 navhover" href="../pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <i class="bi bi-person-fill"></i>
+              <a type="button" class="btn btn-warning btn-lg rounded-pill navhover" href="../pages/login.html"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-person-fill" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                </svg>Ingesar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="row">
+    <div class="col-md-12">
+      <form action="index.html" method="post">
+        <h1> Envianos tu consulta </h1>
+
+        <fieldset>
+
+          <legend><span class="number">1</span> Datos Personales</legend>
+
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="user_name">
+
+          <label for="email">Apellido</label>
+          <input type="email" id="mail" name="user_email">
+
+
+
+        </fieldset>
+        <fieldset>
+
+          <legend><span class="number">2</span>Mensaje</legend>
+
+          <label for="mensajeTexto">Escribinos tu consulta</label>
+          <textarea id="mensajeTexto" name="user_bio"></textarea>
+
+
+
+          <label for="usuario">Usuario</label>
+          <select id="usuario" name=" ">
+            <optgroup label="Usuario Registrado">
+              <option value="">Cliente</option>
+              <option value="">No soy cliente</option>
+
+            </optgroup>
+          </select>
+
+          <label>Newsletter</label>
+          <input type="checkbox" id="development" value="newsletter" name="newsletter"><label class="light"
+            for="development">Registrarme</label><br>
+          <input type="checkbox" id="design" value="newsletter" name="newsletter"><label class="light"
+            for="design">No Gracias</label><br>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+
+      </form>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>CAFE SHOP</h6>
+          <p class="text-justify"><i>Nuestra tienda online.</i> Con granos de café seleccionados y tostados, con un
+            sabor delicado y textura espumosa. Su aroma suave se disfruta en cada taza, desde el momento de su
+            preparación hasta el último sorbo. POLVO PARA PREPARAR INFUSION A BASE DE CAFE JARABE DE GLUCOSA CON
+            COLORANTE. LIBRE DE GLUTEN. - Sin T.A.C.C.</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>LOCALES</h6>
+          <ul class="footer-links">
+            <li>Av. Calle Sin nombre 3556</li>
+            <li>Av. Calle Sin nombre 3556</li>
+            <li>Av. Calle Sin nombre 3556</li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>ATENCION AL CLIENTE</h6>
+          <ul class="footer-links">
+            <li>0351 - 4585635</li>
+            <li>0351 - 1556543558</li>
+            <li>0810-444-46855</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Diseño Cesar Trouillet
+        </div>
+
+
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

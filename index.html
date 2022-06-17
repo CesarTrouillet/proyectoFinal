@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CafeShop">
+  <!--SEO Keywords-->
+  <meta name="keywords" content="cafe, productos, shop, productos, granos de cafe">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!--Favicon-->  
+  <link rel="icon" type="image/x-icon" href="images/coffee-favicon.png">
+  <title>CafeShop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-dark">  
+  <div class="alert alert-warning text-center" role="alert">
+    Semana de descuentos de todos los productos de CAFESHOP en 👉 <a href="https://www.mercadolibre.com.ar"
+      class="alert-link">Mercado Libre </a> 👈
+  </div>
+  <div class="container-fluid d-flex justify-content-center">
+    <img src="images/logoCafeShop.png" alt="logoCafeShop" width="375" height="100"
+      class="d-inline-block d-flex justify-content-center">
+  </div>
+  <header class="d-flex justify-content-center">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-warning" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-warning fs-5 navhover" aria-current="page" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-warning fs-5 navhover" href="pages/nosotros.html">Nosotros </a>
+            </li>
+            <li class="nav-item dropdown text-warning fs-5 ">
+              <a class="nav-link active text-warning fs-5 navhover" href="pages/productos.html">Productos </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-warning fs-5 navhover" href="pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <i class="bi bi-person-fill"></i>
+              <a type="button" class="btn btn-warning btn-lg rounded-pill navhover" href="pages/login.html"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-person-fill" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                </svg>Ingesar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div
+    style="background-image: url('images/bg.jpg');background-repeat: no-repeat;background-size: cover;height: 1100px;"
+    class="jumbotron bg-cover text-white d-flex align-items-center justify-content-center text-center">
+    <div class="container py-5 text-center">
+      <h1 class="display-4 font-weight-bold bienvenidostipografia"><strong>Bienvenidos <br> CafeShop</strong></h1>
+      <h3 class="font-italic mb-0 subtituloinicial">Sabores que reconfortan</h3>
+      <p></p>
+      <a href="pages/noticias.html" class="btn btn-warning px-5 botoninicial">Enterate de todas las noticias <svg
+          xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+          class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+          <path
+            d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+        </svg></a>
+    </div>
+  </div>
+
+
+  <main class="mt-5">
+    <div class="container">
+      <section>
+        <div class="row">
+          <div class="col-md-6 gx-5 mb-4">
+            <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+              <img src="images/bazoDeCafe.jpg" class="img-fluid" alt="bazocafe"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 gx-5 mb-4">
+            <h4 class="text-secondary"><strong>Cada dia mejorando la calidad de nuestros productos.</strong></h4>
+            <p class="text-light ">
+              Se destaca por su sabor suave, un agradable aroma y abundante espuma que es lograda por un blend de granos
+              especialmente seleccionados. Ideal para acompañar no solo nuestras mañanas, sino cualquier momento del
+              día. Y si el gusto pasa por algo distinto, una rica y tentadora línea de Cappuccino y Café Cremé.
+            </p>
+            <p class="text-secondary "><i>Proximamente novedades de nuevos productos.</i></p>
+            <p class="text-light ">
+              Con granos de café seleccionados y tostados, con un sabor delicado y textura espumosa. Su aroma suave se
+              disfruta en cada taza, desde el momento de su preparación hasta el último sorbo.
+
+              POLVO PARA PREPARAR INFUSION A BASE DE CAFE JARABE DE GLUCOSA CON COLORANTE. LIBRE DE GLUTEN. - Sin
+              T.A.C.C.
+            </p>
+            <p class="text-warning "><strong>¿COMPRASTE TU MÁQUINA EN UN LOCAL ADHERIDO?</strong></p>
+            <p class="text-light "> Disfrutá la mejor experiencia de café con nuestros servicios</p>
+          </div>
+        </div>
+      </section>
+
+      <p class="text-light">
+        Todas las cafeteras tienen la función modo Eco, que apaga de forma automática la máquina cuando lleva algunos
+        minutos inactiva. Por eso, no tenés que preocuparte si todavía no te despertaste del todo y te olvidás de
+        apagarla. Cada cápsula presenta una serie de barras, con algunas de ellas resaltadas. Estas últimas indican la
+        cantidad recomendada de agua que debe pasar a través de la cápsula. Simplemente, ajustá las mismas barras en tu
+        máquina o personalizá la cantidad de agua a tu gusto.
+      </p>
+
+      <section id="features">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-xs-6 col-sm-6">
+              <div class="feature-block text-center">
+                <div class="icon-box">
+                  <img src="images/takeaway.png" alt="logoCafeShop">
+                </div>
+                <h4 class="wow fadeInUp text-warning" data-wow-delay=".3s">Distintos medios de entrega</h4>
+                <p class="wow fadeInUp text-light" data-wow-delay=".5s">Encontra todas las ofetas en nuestra tienda. Una
+                  gama de cinco cafés creados con técnicas</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-6 col-sm-6">
+              <div class="feature-block text-center">
+                <div class="icon-box">
+                  <img src="images/box.png" alt="logoCafeShop">
+                </div>
+                <h4 class="wow fadeInUp text-warning" data-wow-delay=".3s">Calidad y variedad</h4>
+                <p class="wow fadeInUp text-light" data-wow-delay=".5s">Como miembro de CafeShop vas a poder hacer uso
+                  de servicios personalizados para vos y, así poder disfrutar tu café favorito como quieras. <br>Hace tu
+                  pedido online.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-6 col-sm-6">
+              <div class="feature-block text-center">
+                <div class="icon-box">
+                  <img src="images/coffee-bag.png" alt="logoCafeShop">
+                </div>
+                <h4 class="wow fadeInUp text-warning data-wow-delay=".3s>Productos propios</h4>
+                <p class="wow fadeInUp text-light" data-wow-delay=".5s">Viví tu experiencia CafeShop disfrutando desde
+                  un espresso afrutado y suave hasta el ristretto más intenso, con o sin leche</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="team">
+        <div class="container">
+          <div class="row">
+            <div class="title">
+              <h2 class="text-warning">NUESTROS PRODUCTOS</h2>
+              <p class="text-light">Nosotros participamos en todas las etapas de desarrollo del producto.</p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6">
+              <div class="block wow fadeInLeft" data-wow-delay=".3s">
+                <img src="images/imagenProducto2.jpg" alt="prodructoCafe">
+                <div class="team-overlay">
+                  <h3 class="text-dark">Plantación y cosecha <span>Primera etapa</span></h3>
+                  <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-caret-down-square-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z" />
+                    </svg></span>
+                  <p>La plantación es la primera etapa del proceso de producción del café. En ella, se da inicio a un
+                    ciclo natural que verá crecer a las semillas hasta convertirse en plantas que pueden alcanzar los 10
+                    metros de altura. La cosecha se produce anualmente cuando las cerezas de café están maduras. Existen
+                    dos métodos distintos para realizar la cosecha: picking y stripping.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4  col-sm-4 col-xs-6">
+              <div class="block wow fadeInLeft" data-wow-delay=".6s">
+                <img src="images/imagenProducto1.jpg" alt="prodructoCafe">
+                <div class="team-overlay">
+                  <h3>Procesamiento y curado<span>Segunda etapa</span></h3>
+                  <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-caret-down-square-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z" />
+                    </svg></span>
+                  <p>En el procesamiento se elimina la pulpa de la cereza de café y se seca para transformar el café
+                    recolectado en café listo para las etapas venideras. Se puede hacer mediante el método húmedo o el
+                    método seco. El curado se materializa antes de su exportación. Su función principal es eliminar la
+                    cascara que recubre al grano para clasificarlo según su calidad, forma y tamaño.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4  col-sm-4 col-xs-6">
+              <div class="block wow fadeInLeft" data-wow-delay=".9s">
+                <img src="images/galeriaCafe3.jpg" alt="prodructoCafe">
+                <div class="team-overlay">
+                  <h3>Tueste y molido de grano<span>Etapa final</span></h3>
+                  <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-caret-down-square-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z" />
+                    </svg></span>
+                  <p>En el tueste, el café obtiene su sabor y aroma más característico. El grano es sometido a altas
+                    temperaturas que alcanzan los 200°, por consiguiente, aumenta en un 80-100% su tamaño, pierde entre
+                    un 12-20% de peso, disminuye su cafeína, y finalmente adquiere su color característico. El molido
+                    reduce el grano a polvo mediante el uso de un molino. Si se prepara el café justo después de este
+                    proceso, se obtiene una aroma y un sabor más intenso. DeLonghi te ofrece la oportunidad de moler tu
+                    mismo el café con sus Molinillos de café.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <div class="title d-flex justify-content-center">
+        <h5 class="text-light">Proximos eventos <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+            fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
+            <path
+              d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+            <path
+              d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+          </svg></h5>
+      </div>
+      <div class=" py-4 container min-vh-75 d-flex justify-content-center align-items-center">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card1 mt-3 p-3 g-2">
+              <div class="d-flex align-items-center"> <small class="first">Lunes 20/08/2022 20:30 pm</small> </div>
+              <div class="mt-3">
+                <h2 class="text1">Evento<br>Expocafe 2022</h2>
+              </div>
+              <div class="detail mt-5"> <small>Consegui las entradas y participa de la expo mas grande de cafe. </small>
+              </div>
+              <div class="mt-3 d-flex justify-content-end px-2">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card2 mt-3 p-3 g-2">
+              <div class="d-flex align-items-center"> <small class="second">Lunes 13/11/2022 18:00 pm</small> </div>
+              <div class="mt-3">
+                <h2 class="text2">Degustacion Online<br>Con profesional del molido</h2>
+              </div>
+              <div class="detail mt-5">
+                <div class="px-1"> <small>Para inscribirse enviar un mail a cafeshop@cafe.com </small> </div>
+              </div>
+              <div class="mt-3 d-flex justify-content-end px-2">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-boxed">
+        <div class="container">
+          <div class="intro">
+            <h3 class="text-center">Proximamente nuestras novedades</h3>
+            <p class="text-center">En los proximos dias anunciaremos tres productos nuevos disponibles en nuestra tienda
+              online.</p>
+          </div>
+          <div class="row people">
+            <div class="col-md-6 col-lg-4 item">
+              <div class="box"><img class="rounded-circle" src="images/productoindex1.jpg" alt="prodructoCafe">
+                <h3 class="name">Buenos Aires Lungo</h3>
+                <p class="title">Argentina</p>
+                <p class="description">
+                  El carácter dulce y suavemente tostado de nuestro Lungo es propicio para hacer exactamente eso. </p>
+
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <div class="box"><img class="rounded-circle" src="images/productoindex2.jpg" alt="prodructoCafe">
+                <h3 class="name">CARAMEL CRÈME</h3>
+                <p class="title">Argentina</p>
+                <p class="description">El cálido sabor del caramelo suaviza las notas tostadas de nuestro espresso más
+                  equilibrado.</p>
+
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <div class="box"><img class="rounded-circle" src="images/productoindex3.jpg" alt="prodructoCafe">
+                <h3 class="name">COCOA TRUFFLE</h3>
+                <p class="title">Colombia</p>
+                <p class="description"> El sabor a cacao negro se une a las notas a cereales malteados del Espresso base
+                  del BARISTA</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="noticiastwitter">
+        <div class="container twitterdiv">
+          <h4 class="text-warning text-center">Novedades en twitter ☕</h4>
+          <div class="container twitterdiv">
+            <a class="twitter-timeline" href="https://twitter.com/DailyCoffeeNews?ref_src=twsrc%5Etfw">Tweets by
+              DailyCoffeeNews</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg-11 mx-auto">
+          <div class="row py-5">
+            <div class="col-lg-4">
+              <figure class="rounded p-3 bg-white shadow-sm">
+                <img src="images/pexels-edward-eyer-2228827.jpg" alt="imagenCafe" class="w-100 card-img-top">
+                <figcaption class="p-4 card-img-bottom">
+                  <h2 class="h5 font-weight-bold mb-2 font-italic text-warning">Experiencias en verano</h2>
+                  <p class="mb-0 text-small text-muted font-italic">El tueste de estos granos de café es realizado por
+                    medio de la técnica.</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-4">
+              <figure class="rounded p-3 bg-white shadow-sm">
+                <img src="images/experienciaCafe.jpg" alt="imagenCafe" class="w-100 card-img-top">
+                <figcaption class="p-4 card-img-bottom">
+                  <h2 class="h5 font-weight-bold mb-2 font-italic text-warning">Cafe en invierno</h2>
+                  <p class="mb-0 text-small text-muted font-italic">La nota predominante es a cacao oscuro vibrante
+                    sobre una base de cereal.</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-4">
+              <figure class="rounded p-3 bg-white shadow-sm">
+                <img src="images/pexels-lisa-fotios-1833769.jpg" alt="imagenCafe" class="w-100 card-img-top">
+                <figcaption class="p-4 card-img-bottom">
+                  <h2 class="h5 font-weight-bold mb-2 font-italic text-warning">Disfruta de nuestro CafeShop</h2>
+                  <p class="mb-0 text-small text-muted font-italic">La combinación perfecta y favorita para el frío
+                    otoñal, de granos 100% Arábica con una sedosa capa de leche y el cremoso sabor del toffee dulce.</p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <section class="newsletter">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="container">
+                    <h2>SUSCRIBITE A NUESTRO NEWSLETTER</h2>
+                    <div class="input-group">
+                      <input type="email" class="form-control" placeholder="Ingesa tu Email">
+                      <span class="input-group-btn">
+                        <button class="btn" type="submit">Suscribirse</button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="socialw fadeInDown">
+            <p class="text-warning">Redes sociales <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+              </svg> </p>
+            <a href="http://youtube.com" target="_blank">
+              <div class="social first"> <img src="images/youtubecafe.png" /></div>
+            </a>
+            <a href="http://whatsapp.com" target="_blank">
+              <div class="social"> <img src="images/whatsappcafe.png" /></div>
+            </a>
+
+            <a href="https://facebook.com/abletroner" target="_blank">
+              <div class="social"><img src="images/facebookcafe.png" /></div>
+            </a>
+
+            <a href="https://twitter.com/abletroner" target="_blank">
+              <div class="social"> <img src="images/twittercafe.png" /> </div>
+            </a>
+
+            <a href="http://instagram.com/abletroner" target="_blank">
+              <div class="social"> <img src="images/instagramCafe.png" /></div>
+            </a>
+
+          </div>
+
+
+
+          <footer class="site-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-6">
+                  <h6>CAFE SHOP</h6>
+                  <p class="text-justify"><i>Nuestra tienda online.</i> Con granos de café seleccionados y tostados, con
+                    un sabor delicado y textura espumosa. Su aroma suave se disfruta en cada taza, desde el momento de
+                    su preparación hasta el último sorbo. POLVO PARA PREPARAR INFUSION A BASE DE CAFE JARABE DE GLUCOSA
+                    CON COLORANTE. LIBRE DE GLUTEN. - Sin T.A.C.C.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                  <h6>LOCALES</h6>
+                  <ul class="footer-links">
+                    <li>Av. Calle Sin nombre 3556</li>
+                    <li>Av. Calle Sin nombre 3556</li>
+                    <li>Av. Calle Sin nombre 3556</li>
+                  </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                  <h6>ATENCION AL CLIENTE</h6>
+                  <ul class="footer-links">
+                    <li>0351 - 4585635</li>
+                    <li>0351 - 1556543558</li>
+                    <li>0810-444-46855</li>
+                  </ul>
+                </div>
+              </div>
+              <hr>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                  <p class="copyright-text">Diseño Cesar Trouillet
+                </div>
+
+
+              </div>
+            </div>
+          </footer>
+
+
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

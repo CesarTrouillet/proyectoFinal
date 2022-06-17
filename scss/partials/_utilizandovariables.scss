@@ -1,0 +1,9 @@
+@import "partials/variables/variables";
+
+#features .feature-block .icon-box i {
+    display: inline-block;
+    line-height: 1;
+    font-size: $big-font-size;
+    transition: 0.3s;
+    color: $primary-color; 
+  }
